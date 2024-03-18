@@ -1,0 +1,84 @@
+body {
+     	background-color: #fdf1d3; 
+}
+
+.forma-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#prijava-forma {
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+#prijava-forma label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#prijava-forma input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+#prijava-forma button {
+    background-color: #FFA07A;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#prijava-forma button:hover {
+    background-color: #ff9900;
+}
+
+#navigacija {
+	display:flex;
+	justify-content: center;
+	position:fixed;
+	align-items: flex-start;
+	align-items:center;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	width:100%;
+	background-color: #FFA07A;			
+}
+
+#navigacija ul {
+margin: 1px;
+padding: 10px;
+}
+
+#navigacija a {
+	margin-right: 1.3em;
+	text-decoration: none;
+	color: inherit;
+}
+
+
+#navigacija li {
+	color: blue;
+	font-weight: bold;
+	transition: color 0.3s;
+	list-style:none;
+	display:inline;
+}
+
+#navigacija li:hover {
+	color: #ff9900;
+}
+

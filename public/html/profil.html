@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+<head>
+         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel ="stylesheet" type="text/css" href="../css/profil.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Uključivanje menija na vrhu stranice -->
+    <script>
+      $(function () {
+        // Učitaj meni.html unutar elementa sa ID "meni-container"
+        $("#meni-container").load("meni.html");
+      });
+    </script>
+    <title>Profil</title>
+</head>
+
+
+<body>
+  <div id="meni-container"></div>
+  <br>
+  <br>
+<div class="pic"><img src="https://cdn5.vectorstock.com/i/thumb-large/08/64/person-gray-photo-placeholder-woman-vector-23190864.jpg" alt="slikaprofila"> </div>
+ <br>
+<br>
+<table class ="profil">
+  <tr>
+        <td>
+           Ime
+        </td>
+        <td class="stavka">
+          <input type="text" id="ime" placeholder="Input field" >
+        </td>
+      </tr>
+      <tr>
+        <td>
+           Prezime
+        </td>
+        <td class="stavka">
+          <input type="text" id="prezime" placeholder="Input field">
+        </td>
+      </tr>
+      <tr>
+        <td>
+         Korisničko ime
+        </td>
+        <td class="stavka">
+          <input type="text" id="username" placeholder="Input field" >
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Lozinka
+        </td>
+        <td class="stavka">
+          <input type="text" id="password" placeholder="Input field" >
+        </td>
+      </tr>
+    </table>
+</body>
+
+</html>

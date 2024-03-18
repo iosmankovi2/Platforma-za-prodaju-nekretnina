@@ -1,0 +1,305 @@
+[{
+    "id": 1,
+    "tip_nekretnine": "Stan",
+    "naziv": "Penthouse Sarajevo Tower",
+    "kvadratura": 118.17,
+    "cijena": 340000,
+    "slika": "https://d4n0y8dshd77z.cloudfront.net/listings/55874570/lg/img-1697710096-b32780d45a1e.JPG",
+    "tip_grijanja": "plin",
+    "lokacija": "Novo Sarajevo",
+    "godina_izgradnje": 2019,
+    "datum_objave": "01.10.2023.",
+    "opis": "Sociis natoque penatibus.",
+    "upiti": [{
+    "korisnik_id": 1,
+    "tekst_upita": "Nullam eu pede mollis pretium."
+    }]
+    },
+    {
+        "id": 2,
+        "tip_nekretnine": "Stan",
+        "naziv": "Stan Bosmal Hrasno",
+        "kvadratura": 58,
+        "cijena": 232000,
+        "slika": "https://s9.pik.ba/galerija/2022-03/25/11/slika-3158352-623d931a846d7-velika.jpg",
+        "tip_grijanja": "plin",
+        "lokacija": "Novo Sarajevo",
+        "godina_izgradnje": 2019,
+        "datum_objave": "01.10.2023.",
+        "opis": "Sociis natoque penatibus.",
+        "upiti": [{
+        "korisnik_id": 1,
+        "tekst_upita": "Nullam eu pede mollis pretium."
+        }]},
+        {
+            "id": 3,
+            "tip_nekretnine": "Stan",
+            "naziv": "Dvoiposoban Stan Sarajevo - Alipašino polje C faza",
+            "kvadratura": 65,
+            "cijena": 300000,
+            "slika": "https://d4n0y8dshd77z.cloudfront.net/listings/55190497/lg/img-1695466412-b035f72aa587.jpeg",
+            "tip_grijanja": "plin",
+            "lokacija": "Novo Sarajevo",
+            "godina_izgradnje": 2019,
+            "datum_objave": "01.10.2023.",
+            "opis": "Sociis natoque penatibus.",
+            "upiti": [{
+            "korisnik_id": 1,
+            "tekst_upita": "Nullam eu pede mollis pretium."
+            }]
+            } , 
+            {
+                "id": 4,
+                "tip_nekretnine": "Kuca",
+                "naziv": "Kuća Osenik Hadžići",
+                "kvadratura": 146,
+                "cijena": 275000, 
+                "slika": "https://d4n0y8dshd77z.cloudfront.net/listings/54029238/lg/img-1688291984-758d7bf610af.jpg",
+                "tip_grijanja": "centralno",
+                "lokacija": "Sarajevo",
+                "godina_izgradnje": 2000,
+                "datum_objave": "01.11.2023.",
+                "opis": "Opis kuće.",
+                "upiti": [{
+                    "korisnik_id": 1,
+                    "tekst_upita": "Upit za kuću."
+                }]
+            },  
+            {
+                "id": 5,
+                "tip_nekretnine": "Kuca",
+                "naziv": "Kuća/VILA Ilidža-Blazuj",
+                "kvadratura": 400,
+                "cijena": 550000, 
+                "slika": "https://d4n0y8dshd77z.cloudfront.net/listings/56290950/lg/img-1698944468-be44cd079081.JPG",
+                "tip_grijanja": "centralno",
+                "lokacija": "Sarajevo",
+                "godina_izgradnje": 2000,
+                "datum_objave": "01.11.2023.",
+                "opis": "Opis kuće.",
+                "upiti": [{
+                    "korisnik_id": 1,
+                    "tekst_upita": "Upit za kuću."
+                }]
+            },
+            {
+                "id": 6,
+                "tip_nekretnine": "Kuca",
+                "naziv": "Kuća Vogošća Hotonj",
+                "kvadratura": 330,
+                "cijena": 179500, 
+                "slika": "https://d4n0y8dshd77z.cloudfront.net/listings/54745831/lg/img-1691916076-0dfd0987af19.jpg",
+                "tip_grijanja": "centralno",
+                "lokacija": "Sarajevo",
+                "godina_izgradnje": 2000,
+                "datum_objave": "01.11.2023.",
+                "opis": "Opis kuće.",
+                "upiti": [{
+                    "korisnik_id": 1,
+                    "tekst_upita": "Upit za kuću."
+                }]
+            }
+            , {
+                "id": 7,
+                "tip_nekretnine": "Poslovni prostor",
+                "naziv": "Sarajevo Centar",
+                "kvadratura": 90,
+                "cijena": 3600, 
+                "slika": "https://d4n0y8dshd77z.cloudfront.net/listings/56248097/lg/img-1698752331-f2f6cc53e847.jpeg",
+                "tip_grijanja": "centralno",
+                "lokacija": "Sarajevo",
+                "godina_izgradnje": 2000,
+                "datum_objave": "01.11.2023.",
+                "opis": "Opis kuće.",
+                "upiti": [{
+                    "korisnik_id": 1,
+                    "tekst_upita": "Upit za poslovni prostor."
+                }]
+            }, {
+                "id": 8,
+                "tip_nekretnine": "Poslovni prostor",
+                "naziv": "Novogradnja - Centar - Šip",
+                "kvadratura": 43,
+                "cijena": 174520, 
+                "slika": "https://d4n0y8dshd77z.cloudfront.net/listings/56323106/lg/img-1699097942-86cb7c69b908.jpg",
+                "tip_grijanja": "centralno",
+                "lokacija": "Sarajevo",
+                "godina_izgradnje": 2000,
+                "datum_objave": "01.11.2023.",
+                "opis": "Opis kuće.",
+                "upiti": [{
+                    "korisnik_id": 1,
+                    "tekst_upita": "Upit za poslovni prostor."
+                }]
+            }, 
+            {
+                "id": 9,
+                "tip_nekretnine": "Poslovni prostor",
+                "naziv": "Stup Ilidža",
+                "kvadratura": 30,
+                "cijena": 99000, 
+                "slika": "https://d4n0y8dshd77z.cloudfront.net/listings/54802370/lg/img-1695277395-bdb2b6b382cf.jpg",
+                "tip_grijanja": "centralno",
+                "lokacija": "Sarajevo",
+                "godina_izgradnje": 2000,
+                "datum_objave": "01.11.2023.",
+                "opis": "Opis kuće.",
+                "upiti": [{
+                    "korisnik_id": 1,
+                    "tekst_upita": "Upit za poslovni prostor."
+                }]
+            },
+            {
+                "id": 10,
+                "tip_nekretnine": "Stan",
+                "naziv": "Stan Moja Malta - Opremljen - Dolac Malta",
+                "kvadratura": 65,
+                "cijena": 355.000,
+                "slika": "https://d4n0y8dshd77z.cloudfront.net/listings/55685283/lg/img-1697199298-eff18cb4abad.jpeg ",
+                "tip_grijanja": "plin",
+                "lokacija": "Novo Sarajevo",
+                "godina_izgradnje": 2019,
+                "datum_objave": "01.10.2023.",
+                "opis": "Sociis natoque penatibus.",
+                "upiti": [{
+                "korisnik_id": 1,
+                "tekst_upita": "Nullam eu pede mollis pretium."
+                }]
+                },
+                {
+                    "id": 11,
+                    "tip_nekretnine": "Stan",
+                    "naziv": "Stan Sarajevo - Novo Sarajevo - Grbavica",
+                    "kvadratura": 70,
+                    "cijena": 285.000,
+                    "slika": "https://d4n0y8dshd77z.cloudfront.net/listings/52886447/lg/img-1681912189-c9a14ef36a6d.jpg ",
+                    "tip_grijanja": "plin",
+                    "lokacija": "Novo Sarajevo",
+                    "godina_izgradnje": 2019,
+                    "datum_objave": "01.10.2023.",
+                    "opis": "Sociis natoque penatibus.",
+                    "upiti": [{
+                    "korisnik_id": 1,
+                    "tekst_upita": "Nullam eu pede mollis pretium."
+                    }]
+                    },
+                    {
+                        "id": 12,
+                        "tip_nekretnine": "Stan",
+                        "naziv": "MY SPACE/ Stan/ Ilidza Residence/ NOVOGRADNJA",
+                        "kvadratura": 45.47,
+                        "cijena": 162.259,
+                        "slika": "https://www.nekretnine-myspace.com/wp-content/uploads/2023/03/3D-Slika.jpg",
+                        "tip_grijanja": "plin",
+                        "lokacija": "Novo Sarajevo",
+                        "godina_izgradnje": 2019,
+                        "datum_objave": "01.10.2023.",
+                        "opis": "Sociis natoque penatibus.",
+                        "upiti": [{
+                        "korisnik_id": 1,
+                        "tekst_upita": "Nullam eu pede mollis pretium."
+                        }]
+                        },
+                        {
+                            "id": 13,
+                            "tip_nekretnine": "Kuca",
+                            "naziv": "Kuća Sarajevo Novi Grad",
+                            "kvadratura": 120,
+                            "cijena":  164.900 , 
+                            "slika": "https://d4n0y8dshd77z.cloudfront.net/listings/53796344/lg/img-1686830994-4d8e87e442b7.JPG",
+                            "tip_grijanja": "centralno",
+                            "lokacija": "Sarajevo",
+                            "godina_izgradnje": 2000,
+                            "datum_objave": "01.11.2023.",
+                            "opis": "Opis kuće.",
+                            "upiti": [{
+                                "korisnik_id": 1,
+                                "tekst_upita": "Upit za kuću."
+                            }]
+                        },
+                        {
+                            "id": 14,
+                            "tip_nekretnine": "Kuca",
+                            "naziv": "Kuća Koševsko Brdo Centar",
+                            "kvadratura": 170,
+                            "cijena": 320.000, 
+                            "slika": "https://d4n0y8dshd77z.cloudfront.net/listings/56300157/lg/img-1698995814-43999f3675ea.jpg",
+                            "tip_grijanja": "centralno",
+                            "lokacija": "Sarajevo",
+                            "godina_izgradnje": 2000,
+                            "datum_objave": "01.11.2023.",
+                            "opis": "Opis kuće.",
+                            "upiti": [{
+                                "korisnik_id": 1,
+                                "tekst_upita": "Upit za kuću."
+                            }]
+                        },
+                        {
+                            "id": 15,
+                            "tip_nekretnine": "Kuca",
+                            "naziv": "Kuća, Sokolović Kolonija-Ilidža",
+                            "kvadratura": 140,
+                            "cijena": 285000, 
+                            "slika": "https://d4n0y8dshd77z.cloudfront.net/listings/48243249/lg/tPnH3HgjjGxdSf7Wyf8y.jpg",
+                            "tip_grijanja": "centralno",
+                            "lokacija": "Sarajevo",
+                            "godina_izgradnje": 2000,
+                            "datum_objave": "01.11.2023.",
+                            "opis": "Opis kuće.",
+                            "upiti": [{
+                                "korisnik_id": 1,
+                                "tekst_upita": "Upit za kuću."
+                            }]
+                        },
+                        {
+                            "id": 16,
+                            "tip_nekretnine": "Poslovni prostor",
+                            "naziv": "BAULAND/ Poslovni prostor u samom centru Ilidže",
+                            "kvadratura": 100,
+                            "cijena": 370000, 
+                            "slika": "https://d4n0y8dshd77z.cloudfront.net/listings/53783090/lg/img-1686748558-abb208469665.JPG",
+                            "tip_grijanja": "centralno",
+                            "lokacija": "Sarajevo",
+                            "godina_izgradnje": 2000,
+                            "datum_objave": "01.11.2023.",
+                            "opis": "Opis kuće.",
+                            "upiti": [{
+                                "korisnik_id": 1,
+                                "tekst_upita": "Upit za poslovni prostor."
+                            }]
+                        },
+                        {
+                            "id": 17,
+                            "tip_nekretnine": "Poslovni prostor",
+                            "naziv": "Poslovni prostor Sarajevo - Centar",
+                            "kvadratura": 24,
+                            "cijena": 72000, 
+                            "slika": "https://d4n0y8dshd77z.cloudfront.net/listings/55299406/lg/img-1695400861-78b050d78861.jpg",
+                            "tip_grijanja": "centralno",
+                            "lokacija": "Sarajevo",
+                            "godina_izgradnje": 2000,
+                            "datum_objave": "01.11.2023.",
+                            "opis": "Opis kuće.",
+                            "upiti": [{
+                                "korisnik_id": 1,
+                                "tekst_upita": "Upit za poslovni prostor."
+                            }]
+                        },
+                        {
+                            "id": 18,
+                            "tip_nekretnine": "Poslovni prostor",
+                            "naziv": "Poslovni prostori/ Otoka/ NOVOGRADNJA",
+                            "kvadratura": 38,
+                            "cijena": 56000, 
+                            "slika": "https://s9.pik.ba/galerija/2021-11/22/03/slika-1070163-619baf3308021-velika.jpg",
+                            "tip_grijanja": "centralno",
+                            "lokacija": "Sarajevo",
+                            "godina_izgradnje": 2000,
+                            "datum_objave": "01.11.2023.",
+                            "opis": "Opis kuće.",
+                            "upiti": [{
+                                "korisnik_id": 1,
+                                "tekst_upita": "Upit za poslovni prostor."
+                            }]
+                        }
+]

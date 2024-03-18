@@ -1,0 +1,51 @@
+body {
+     	background-color: #fdf1d3; 
+}
+
+#navigacija {
+	display:flex;
+	justify-content: center;
+	position:fixed;
+	align-items: flex-start;
+	align-items:center;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	width:100%;
+	background-color: #FFA07A;			
+}
+
+#navigacija ul {
+margin: 1px;
+padding: 10px;
+}
+
+#navigacija a {
+	margin-right: 1.3em;
+	text-decoration: none;
+	color: inherit;
+}
+
+
+#navigacija li {
+	color: blue;
+	font-weight: bold;
+	transition: color 0.3s;
+	list-style:none;
+	display:inline;
+}
+
+#navigacija li:hover {
+	color: #ff9900;
+}
+
+#meni ul {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+
+  #meni ul li {
+	margin-right: 10px; /*Prilagodite razmak između stavki prema potrebi */
+  }

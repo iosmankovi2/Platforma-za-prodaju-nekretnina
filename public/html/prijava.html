@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prijava</title>
+    <link rel="stylesheet" type="text/css" href="../css/prijava.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Uključivanje menija na vrhu stranice -->
+    <script>
+      $(function () {
+        // Učitaj meni.html unutar elementa sa ID "meni-container"
+        $("#meni-container").load("meni.html");
+      });
+    </script>
+</head>
+<body>
+
+    <div id="meni-container"></div>
+
+<div class="forma-container">
+    <form id="prijava-forma" action="/login" method="POST">
+        <label for="username">Korisničko ime:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Šifra:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Prijava</button>
+    </form>
+</div>
+
+</body>
+</html>

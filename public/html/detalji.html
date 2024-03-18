@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="bs">
+
+<head>
+  <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+  <link rel="stylesheet" type="text/css" href="../css/detalji.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <!-- Uključivanje menija na vrhu stranice -->
+  <script>
+    $(function () {
+      // Učitaj meni.html unutar elementa sa ID "meni-container"
+      $("#meni-container").load("meni.html");
+    });
+  </script>
+
+  <title>Detalji</title>
+</head>
+
+<body>
+  <div id="meni-container"></div>
+  <div id="detalji-container">
+
+    <img id="slika" alt="Nekretnina">
+    <div id="osnovno"></div>
+    <div id="detalji"></div>
+    <div id="upiti"></div>
+    <!-- Dodano input polje i dugme za postavljanje upita -->
+    <div id="upit-container">
+      <label for="upitTekst">Postavi upit:</label>
+      <textarea id="upitTekst" placeholder="Unesite vaš upit"></textarea>
+      <button id="postaviUpitBtn">Postavi upit</button>
+  </div>
+
+    </div>
+  </div>
+  </div> <!-- Uključivanje sequelize.js -->
+  <script src="../config/sequelize.js"></script>
+  <!-- Uključivanje nekretnina.js -->
+  <script src="../models/nekretnina.js"></script>
+  <script src="../scripts/SpisakNekretnina.js"></script>
+  <script src="../scripts/nekretnine.js"></script>
+  <script src="../scripts/spojiDetalje.js"></script>
+  <script src="../scripts/PoziviAjax.js"></script>
+
+
+</body>
+
+</html>

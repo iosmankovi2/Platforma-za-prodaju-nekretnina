@@ -1,0 +1,168 @@
+body {
+    background-color: #fdf1d3;
+    font-family: 'Roboto', sans-serif; /* Dodano: koristi Google Fonts - Roboto */
+}
+
+#navigacija {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    align-items: center;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: #FFA07A;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Dodano: sjenčanje */
+}
+
+#navigacija ul {
+    margin: 1px;
+    padding: 10px;
+}
+
+#navigacija a {
+    margin-right: 1.3em;
+    text-decoration: none;
+    color: inherit;
+}
+
+#navigacija li {
+    color: blue;
+    font-weight: bold;
+    transition: color 0.3s;
+    list-style: none;
+    display: inline;
+}
+
+#navigacija li:hover {
+    color: #ff9900;
+}
+
+#pretraga {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#pretraga label {
+    margin-right: 10px;
+}
+
+#pretraga input {
+    padding: 8px;
+    margin-right: 10px;
+}
+
+#pretraga button {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pretraga button:hover {
+    background-color: #45a049;
+}
+
+.pravougaonik {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.stan, .kuca, .poslovniprostor {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.kuca {
+    background-color: powderblue;
+}
+
+.poslovniprostor {
+    background-color: green;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.pravougaonik img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover; /* Dodano: održava proporcije slike */
+    border-radius: 8px;
+}
+
+.pravougaonik h3 {
+    margin: 10px 0 5px;
+}
+
+.pravougaonik p {
+    margin: 0;
+}
+
+
+.cijena {
+    text-align: right;
+    font-weight: bold;
+    color: #e74c3c; /* Dodano: crvena boja za cijenu */
+}
+
+.detalji {
+    display: block;
+    margin: 20px auto;
+    background-color: #fcfcfc;
+    color: #0c0c0c;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.detalji:hover {
+    background-color: #faf9f9;
+}
+
+
+/* Stilizacija dugmeta */
+button {
+    padding: 10px 10px;
+    font-size: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Stilizacija dugmeta na hover (kada korisnik pređe mišem preko njega) */
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+@media (max-width: 1080px) {
+    .pravougaonik {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .pravougaonik {
+        grid-template-columns: 1fr;
+    }
+}

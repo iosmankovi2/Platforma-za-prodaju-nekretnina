@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="bs">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/nekretnine.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script src="../scripts/PoziviAjax.js"></script>
+    <script src="../scripts/MarketingAjax.js"></script>
+
+    <!-- Uključivanje menija na vrhu stranice -->
+    <script>
+        $(function () {
+            // Učitaj meni.html unutar elementa sa ID "meni-container"
+            $("#meni-container").load("meni.html");
+        });
+    </script>
+    <title>Nekretnine</title>
+</head>
+
+<body>
+
+    <div id="meni-container"></div>
+
+    <br>
+    <br>
+
+
+    <!--polja za pretragu -->
+    <div id="pretraga">
+        <label for="minCijena">Min. Cijena:</label>
+        <input type="number" id="minCijena" placeholder="Unesite minimalnu cijenu">
+
+        <label for="maxCijena">Max. Cijena:</label>
+        <input type="number" id="maxCijena" placeholder="Unesite maksimalnu cijenu">
+
+        <label for="minKvadratura">Min. Kvadratura:</label>
+        <input type="number" id="minKvadratura" placeholder="Unesite minimalnu kvadraturu">
+
+        <label for="maxKvadratura">Max. Kvadratura:</label>
+        <input type="number" id="maxKvadratura" placeholder="Unesite maksimalnu kvadraturu">
+        <button id="pretragaBtn">Pretraži</button>
+
+    </div>
+
+    <!-- Stanovi -->
+    <h2>Stan</h2>
+    <div id="stan">
+        <!-- Mjesto gdje će se dodavati dinamički elementi za stanove -->
+    </div>
+
+    <!-- Kuće -->
+    <h2>Kuća</h2>
+    <div id="kuca">
+        <!-- Mjesto gdje će se dodavati dinamički elementi za kuće -->
+    </div>
+
+    <!-- Poslovni prostori -->
+    <h2>Poslovni prostor</h2>
+    <div id="poslovniprostor">
+        <!-- Mjesto gdje će se dodavati dinamički elementi za poslovne prostore -->
+    </div>
+
+    <!-- Uključivanje sequelize.js -->
+    <script src="../config/sequelize.js"></script>
+    <!-- Uključivanje nekretnina.js -->
+    <script src="../models/nekretnina.js"></script>
+    <script src="../scripts/SpisakNekretnina.js"></script>
+
+    <script src="../scripts/nekretnine.js"></script>
+    <script>
+        // dugme za pretragu
+        document.getElementById('pretragaBtn').addEventListener('click', filtrirajNekretnine);
+    </script>
+
+
+</body>
+
+</html>
